@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript ile calismak</title>
+    <style>
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2  style="background-color: yellowgreen;text-align: center;padding: 10px;border-radius: 20px;"><span style="background-color: blue;" >javascript</span> ile
+        calismak</h2>
+    <button  type="button" onclick=" document.getElementById('demo1').innerHTML = 'aşagıda tarih bilgisi var'">
+        tarih ve zamanı göster</button>
+    <p id="demo1">tarih ve zaman</p>
+    <p id="demo2">data</p>
+    <p id="demo3">data</p>
+
+    <script>
+        document.getElementById("demo2").innerHTML = Date()
+    </script>
+</body>
+
+</html>
